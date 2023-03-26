@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Student Registration Form</title>
+        <style>
+          form {
+            max-width: 250px;
+            margin: auto;
+          }
+
+          label {
+            display: block;
+            margin-bottom: 5px;
+          }
+
+          input[type="text"],
+          input[type="text"],
+          input[type="text"],
+          input[type="email"],
+          input[type="password"],
+          input[type="tel"],
+          textarea,
+          select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            resize: vertical;
+          }
+
+          input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+
+          input[type="reset"] {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: cyan;
+            color: white;
+          }
+
+          input[type="submit"]:hover {
+            background-color: #45a049;
+          }
+          input[type="reset"]:hover {
+            background-color: #16ea20;
+          }
+
+          textarea {
+            height: 100px;
+          }
+
+          /* Styles for the page title */
+          h1 {
+            text-align: center;
+            margin-top: 50px;
+          }
+
+          /* Styles for the form container */
+          form {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Student Registration Form</h1>
+        <form>
+          <label for="name">Name :</label>
+          <input type="text" id="name" name="name" /><br />
+
+          <label for="name">College :</label>
+          <input type="text" id="name" name="College" /><br />
+
+          <label for="name">College Redg.no :</label>
+          <input type="text" id="name" name="identity" /><br />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" /><br />
+
+          <label for="password">Password :</label>
+          <input type="password" id="password" name="password" /><br />
+
+          <label for="confirm_password">Confirm Password :</label>
+          <input
+            type="password"
+            id="confirm_password"
+            name="confirm_password"
+          /><br />
+
+          <label for="phone">Phone Number :</label>
+          <input type="tel" id="phone" name="phone" /><br />
+
+          <label for="dob">Date of Birth :</label>
+          <input type="date" id="dob" name="dob" /><br />
+
+          <label for="gender">Gender :</label>
+          <select id="gender" name="gender">
+            <option value="Select">select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option></select
+          ><br />
+
+          <label for="address">Address :</label>
+          <textarea id="address" name="address"></textarea><br />
+
+          <input type="submit" value="Submit" />
+          <input type="reset" value="reset" />
+        </form>
+      </body>
+    </html>
+  </body>
+</html>
